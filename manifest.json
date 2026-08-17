@@ -1,23 +1,23 @@
 [
   {
-    "id": "template-provider",
-    "name": "Template Provider",
-    "description": "A starter template for creating Nuvio providers.",
+    "id": "movix-provider",
+    "name": "Movix",
+    "description": "Stream movies and TV shows from Movix.",
     "version": "1.0.0",
-    "author": "Your Name",
+    "author": "SHERI",
     "supportedTypes": [
       "movie",
-      "tv"
+      "series"
     ],
-    "filename": "providers/template.js",
-    "enabled": false,
-    "logo": "",
+    "filename": "providers/movix.js",
+    "enabled": true,
+    "logo": "https://movix.bet/favicon.ico",
     "contentLanguage": [
-      "en"
+      "fr"
     ],
     "formats": [
       "mp4",
-      "mkv"
+      "m3u8"
     ],
     "limited": false,
     "disabledPlatforms": [],
